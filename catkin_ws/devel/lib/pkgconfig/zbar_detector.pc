@@ -1,0 +1,8 @@
+prefix=/home/avrelij/Documents/RINS/catkin_ws/devel
+
+Name: zbar_detector
+Description: Description of zbar_detector
+Version: 0.1.0
+Cflags: -I/home/avrelij/Documents/RINS/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime std_msgs

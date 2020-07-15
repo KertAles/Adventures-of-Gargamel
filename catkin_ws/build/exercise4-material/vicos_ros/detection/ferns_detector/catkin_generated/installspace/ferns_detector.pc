@@ -1,0 +1,8 @@
+prefix=/home/avrelij/Documents/RINS/catkin_ws/install
+
+Name: ferns_detector
+Description: Description of ferns_detector
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

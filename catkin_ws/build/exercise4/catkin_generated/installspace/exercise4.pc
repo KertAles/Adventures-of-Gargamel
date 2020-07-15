@@ -1,0 +1,8 @@
+prefix=/home/avrelij/Documents/RINS/catkin_ws/install
+
+Name: exercise4
+Description: Description of exercise4
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- <node name="cylinder_marker_array_node" pkg="exercise6" type="mark_cylinders.py" output="screen"/> -->
+<!-- 
+     <node pkg="exercise6" type="find_plane" name="find_plane">
+
+        <remap from="input" to="/camera/depth/points"/>
+        <remap from="/exercise6/find_plane" to="plane"/>
+
+    </node> -->
+
+    <node pkg="exercise6" type="cylinder_segmentation" name="cylinder_segmentation">s
+        <remap from="input" to="plane"/>
+    </node>
+
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="face_localizer" pkg="exercise4" type="face_localizer.py" output="screen"/>
+
+  <node name="movebase_client" pkg="exercise4" type="movebase_client.py" output="screen"/>
+
+</launch>

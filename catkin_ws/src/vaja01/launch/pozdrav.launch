@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="publisher" pkg="vaja01" type="publisher.py" output="screen"/>
+
+  <node name="subscriber" pkg="vaja01" type="subscriber.py" output="screen"/>
+
+</launch>

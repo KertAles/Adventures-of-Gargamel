@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="exercise4" type="face_localizer" name="face_localizer" output="screen">
+    <param name="detector_file" value="$(find exercise4)/data/haarcascade_face.xml"/>
+  </node>
+</launch>

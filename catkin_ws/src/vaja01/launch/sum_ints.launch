@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="sumints_service" pkg="vaja01" type="sumints_service.py" output="screen"/>
+
+  <node name="sumints_client" pkg="vaja01" type="sumints_client.py" output="screen"/>
+
+</launch>
